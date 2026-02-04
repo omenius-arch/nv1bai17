@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thiết kế bảng HTML và CSS</title>
+    <style>
+        .blue-panel {
+            background-color: #e8f3f8;
+            border: 1px solid #a8c6d9;
+            padding: 25px;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            max-width: 750px;
+            line-height: 1.5;
+        }
+
+        .header-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .sub-section {
+            margin-bottom: 20px;
+        }
+
+        .content-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin: 10px 0;
+        }
+
+        .logo {
+            width: 50px;
+            height: auto;
+        }
+
+        .text-box {
+            flex: 1;
+        }
+
+        .link-text {
+            font-size: 0.95em;
+            margin: 5px 0;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="blue-panel">
+    <div class="header-title">Giới thiệu HTML và CSS</div>
+    
+    <div class="sub-section">
+        <strong>Giới thiệu HTML</strong><br>
+        <strong>HTML là gì</strong>
+        <div class="content-row">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" class="logo" alt="HTML5">
+            <div class="text-box">
+                HTML – tên viết tắt của HyperText Markup Language, ngôn ngữ đánh dấu siêu văn bản, là ngôn ngữ đặc biệt dùng để thiết kế nội dung các trang web và được thể hiện bằng trình duyệt. Cấu trúc mỗi tệp HTML là một cấu trúc dạng cây của các phần tử HTML.
+            </div>
+        </div>
+        <div class="link-text">Link xem thêm chi tiết về HTML tại đây (<a href="#">https://en.wikipedia.org/wiki/HTML</a>).</div>
+        <div class="link-text">Link xem và tự học HTML tại đây (<a href="#">https://www.w3schools.com/html/default.asp</a>).</div>
+    </div>
+
+    <div class="sub-section">
+        <strong>Giới thiệu CSS</strong><br>
+        <strong>CSS là gì</strong>
+        <div class="content-row">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" class="logo" alt="CSS3">
+            <div class="text-box">
+                CSS (Cascading Style Sheets) là ngôn ngữ định dạng đặc biệt được dùng để mô tả cách thể hiện của văn bản HTML trong trang web. Mỗi định dạng CSS đều có dạng chuẩn là bộ chọn {thuộc tính : giá trị ;}.
+            </div>
+        </div>
+        <div class="link-text">Link xem thêm chi tiết về CSS tại đây (<a href="#">https://en.wikipedia.org/wiki/CSS</a>).</div>
+        <div class="link-text">Link xem và tự học CSS tại đây (<a href="#">https://www.w3schools.com/css/default.asp</a>).</div>
+    </div>
+</div>
+
+</body>
+</html>
